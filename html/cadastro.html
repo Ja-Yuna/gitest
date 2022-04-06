@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos/estiloscadastro.css" />
+    <script src="scripts/scriptscadastro.js"></script>
+        <body>
+            <h1>Cadastro</h1>
+            
+            <div>
+                <form action="#" method ="post">
+                    <label for ="idade">Nome</label>
+                    <input type= "text" placeholder="Informe nome"/>
+                    <input type= "number" id ="fidade" placeholder="Informe idade"/>
+                    <input type= "e-mail" placeholder="Informe email"/>
+
+                    <input type= "Date" />
+                    <input type="Datetime-local"/>
+
+                    <ol>
+                <li><input type="checkbox">Livros</input>
+                    <label for ="livros"></label>
+                </li>
+                <li><input type="checkbox">Musica</input></li>
+                    </ol>
+                </ol>
+                    <ol>
+                        <li><input type="radio" name="genero" checked>Feminino</input></li>
+    
+                <input type="checkbox" id="comida" />
+                <label for="comida">Comida</label>
+    
+                <input type="radio" name="genero" checked>Feminino</input>
+                <input type="radio" name="genero">Masculino</input>
+                <input type="password" placeholder="Informe senha" pattern="[0-9]{3}" />
+    
+                <textarea cols="50" rows="10" style="resize:none">
+                    
+                </textarea>
+    
+                <select>
+                    <option>Um</option>
+                    <option>Dois</option>
+                    <option>Três</option>
+                </select>
+    
+                <select>
+                    <option value="1">Açougue</option>
+                    <option value="2">Frutas</option>
+                    <option value="3">Verduras</option>
+                </select>
+    
+                <img src="imagens/onca.jpg" alt="" width="100px" height="100px" />
+                <input type="file" placeholder="Informe a imagem" />
+            </form>
+            <button onclick="onSubmit()">Gravar</button>
+        
+
+                </form>
+            </div>
+        </body>
+    </head>
+</html>
